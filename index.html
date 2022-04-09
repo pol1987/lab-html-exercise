@@ -1,6 +1,8 @@
 <html>
     <link rel="stylesheet" href="./style.css"/>
     <body>
+
+
         <header>
             <div>
                 <div>                
@@ -19,27 +21,29 @@
                     </ul>
                 </nav>            
             </div>
-                
             <div>
-                <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
-
-
-                <nav>
-                    <div>
-                        <img class="npmLogo" src="images\npm-logo.png" alt="npm logo" />
-                    </div>
-                    <div>
-                        <img class="npmLogo" src="images\magnifying-glass.png" alt="magnifying glass" />
-                    </div>
+                <img class="npmLogo" src="images\npm-logo.png" alt="npm logo" />
+            </div>
+                
+            <div id="barraBusqueda">
+                <form class="buscador">
+                    <nav>                   
+                        
+                        <div>
+                            <img class="lupaLogo" src="images\magnifying-glass.png" alt="magnifying glass" />
+                        </div>
+                        
+                    <nav>                
+                            <a href="#">Join</a>
+                            <a href="#">Log In</a>                                
+                                                        
+                    </nav> 
                     
-                <nav>                
-                        <a href="#">Join</a>
-                        <a href="#">Log In</a>                                
-                                                    
-                </nav> 
-                <div>
-                    <input type="text" name="Search bar" id="" /> <input type="button" value="Search">
-                </div>
+                    <div>
+                        <input type="text" name="Search bar" id="" /> <input type="button" value="Search">
+                    </div>
+
+                </form>
             </div>
         </header>
 
@@ -47,17 +51,21 @@
 
 
         <section id="primeraSeccion">
-            <h1>
-                Build amazing things
-            </h1>
+            <div>
+                <h1>
+                    Build amazing things
+                </h1>
 
-            <article>
-                Essential JavaScript development tools that help you go to market faster and build powerful applications using
-                modern open source code.
-            </article>
-            
-            <div>        
+                <article id="texto">
+                    Essential JavaScript development tools that help you go to market faster and build powerful applications using
+                    modern open source code.
+                </article>
+            </div>
+
+            <div id="seePlans">        
                 <a href="#">See plans</a>
+            </div>
+            <div id="joinFree">
                 <a href="#">Join for free</a>        
             </div>
 
@@ -71,16 +79,10 @@
             </h2>
 
             <article>
-                npm is the tool used by
-                over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it.
+                Npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it.
                 Create an Org and get more out of the tools your team already knows and loves.
             </article>
-
-            
-
-            
-
-        </section>
+         </section>
         
 
 
